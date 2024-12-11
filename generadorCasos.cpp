@@ -49,7 +49,7 @@ int main() {
 
         //Generamos K, en la primera mitad de los casos va a ser mayor y en la segunda menor
         //así nos aseguramos de que haya variedad de soluciones
-        K = 0 + std::rand() % ((maxAristasAhora/2) + 1);
+        K = 0 + std::rand() % ((M/2) + 1);
 
         //Escribimos K
         outfile << K << '\n';
@@ -90,7 +90,7 @@ int main() {
 
         //Generamos K, en la primera mitad de los casos va a ser mayor y en la segunda menor
         //así nos aseguramos de que haya variedad de soluciones
-        K = 0 + std::rand() % (maxAristasAhora + 1);
+        K = 0 + std::rand() % (M + 1);
 
         //Escribimos K
         outfile << K << '\n';
@@ -169,7 +169,7 @@ int main() {
 
         //Generamos K, en la primera mitad de los casos va a ser mayor y en la segunda menor
         //así nos aseguramos de que haya variedad de soluciones
-        K = maxAristas;
+        K = M;
 
         //Escribimos K
         outfile << K << '\n';
