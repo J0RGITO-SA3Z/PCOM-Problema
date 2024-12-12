@@ -56,7 +56,7 @@ int main() {
     }
 
     //Generamos la segunda tanda de casos aleatorios (mas grandes)
-    for(int j = numCasos/2 + 1; j < numCasos; ++j){
+    for(int j = numCasos/2; j < numCasos; ++j){
         //Generamos N, M y Z aleatorios
         N = maxVertices/2  + 1 + std::rand() % (maxVertices - maxVertices/2 - 1 + 1); //(max - min + 1)
         maxAristasAhora = std::min(maxAristas, N * (N - 1) / 2);
